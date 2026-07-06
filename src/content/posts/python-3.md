@@ -2,7 +2,7 @@
 title: Python 学习笔记（三）：判断语句与循环
 published: 2026-01-18
 description: if/elif/else 条件判断、while/for 循环控制、break/continue 跳转、循环嵌套与综合案例。
-image: ./images/new11.png
+image: ./images/bg012.png
 tags: [Python, 编程, 流程控制]
 category: 技术
 draft: false

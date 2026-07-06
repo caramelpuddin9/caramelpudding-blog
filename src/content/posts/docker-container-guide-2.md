@@ -2,7 +2,7 @@
 title: Docker 容器学习（二）：Docker的基本操作
 published: 2026-02-11
 description: Docker 镜像管理（搜索/拉取/导出/删除）、容器常用操作（启动/停止/日志/端口映射）、文件传输与内容提交。
-image: ./images/new02.png
+image: ./images/bg003.png
 tags: [Docker, Linux, 容器, 镜像]
 category: 技术
 draft: false

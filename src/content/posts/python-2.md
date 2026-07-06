@@ -2,7 +2,7 @@
 title: Python 学习笔记（二）：基础语法与变量
 published: 2026-01-17
 description: Python 基础语法规则、变量的定义与使用、字符串占位操作、运算符（算术/比较/赋值/逻辑）。
-image: ./images/new10.png
+image: ./images/bg011.png
 tags: [Python, 编程, 语法]
 category: 技术
 draft: false

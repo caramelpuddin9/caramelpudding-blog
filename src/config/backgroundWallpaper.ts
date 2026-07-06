@@ -10,9 +10,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 
 	src: {
 		// 桌面背景 - 单张图片
-		desktop: ["/wallpapers/3.jpg"],
+		desktop: ["/wallpapers/bg001.png"],
 		// 移动背景
-		mobile: ["/wallpapers/3.jpg"],
+		mobile: ["/wallpapers/bg001.png"],
 	},
 
 	common: {

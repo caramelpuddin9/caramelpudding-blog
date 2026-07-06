@@ -2,7 +2,7 @@
 title: Docker 容器学习（三）：Docker镜像构建
 published: 2026-02-12
 description: Docker 镜像结构原理、Dockerfile 构建参数详解（FROM/COPY/ADD/ENV/EXPOSE/VOLUME/WORKDIR/RUN/CMD/ENTRYPOINT）、镜像优化策略与多阶段构建。
-image: ./images/new03.png
+image: ./images/bg004.png
 tags: [Docker, Linux, Dockerfile, 镜像构建]
 category: 技术
 draft: false

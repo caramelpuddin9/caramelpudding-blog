@@ -2,7 +2,7 @@
 title: Docker 容器学习（六）：Docker数据卷管理及优化
 published: 2026-02-15
 description: Docker 数据卷的作用、bind mount 与 docker managed volume、数据卷容器、数据备份与恢复。
-image: ./images/new06.png
+image: ./images/bg007.png
 tags: [Docker, 数据卷, 存储, Volume]
 category: 技术
 draft: false

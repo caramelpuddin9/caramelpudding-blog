@@ -2,7 +2,7 @@
 title: Hello World — 欢迎来到 caramelpudding blog
 published: 2026-01-15
 description: 欢迎来到 caramelpudding blog！这是第一篇博客文章，记录建站过程与写作计划。
-image: ./images/1.jpg
+image: ./images/bg001.png
 tags: [博客, 生活]
 category: 随笔
 draft: false

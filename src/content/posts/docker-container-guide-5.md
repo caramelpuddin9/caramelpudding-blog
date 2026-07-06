@@ -2,7 +2,7 @@
 title: Docker 容器学习（五）：Docker网络
 published: 2026-02-14
 description: Docker 原生网络（bridge/host/none）、自定义桥接网络与 DNS 解析、joined 容器网络、跨主机网络（macvlan）。
-image: ./images/new05.png
+image: ./images/bg006.png
 tags: [Docker, 网络, bridge, macvlan]
 category: 技术
 draft: false

@@ -2,7 +2,7 @@
 title: Docker 容器学习（七）：Docker安全优化
 published: 2026-02-16
 description: Docker 安全加固、资源限制（CPU/内存）、Capabilities 权限控制、AppArmor/SELinux 安全策略。
-image: ./images/new07.png
+image: ./images/bg008.png
 tags: [Docker, 安全, Linux, 资源限制]
 category: 技术
 draft: false

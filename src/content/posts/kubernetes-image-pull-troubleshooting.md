@@ -2,7 +2,7 @@
 title: "Kubernetes 镜像拉取故障排障实战：从 InvalidImageName 到 Running"
 published: 2026-07-06
 description: "一次完整的 Kubernetes 部署排障记录，涵盖镜像格式错误、Harbor 私有仓库配置、Docker insecure-registries 设置等常见问题"
-image: /assets/images/k8s-image-pull-flow.png
+image: ./images/bg017.png
 tags: [Kubernetes, Docker, Harbor, Linux, 排障]
 category: 技术
 draft: false

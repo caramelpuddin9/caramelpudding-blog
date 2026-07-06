@@ -2,7 +2,7 @@
 title: Docker 容器学习（八）：容器编排工具Docker Compose
 published: 2026-02-17
 description: Docker Compose 安装与使用、docker-compose.yml 编写、多容器应用编排、网络与数据卷配置。
-image: ./images/new08.png
+image: ./images/bg009.png
 tags: [Docker, Docker Compose, 容器编排, DevOps]
 category: 技术
 draft: false

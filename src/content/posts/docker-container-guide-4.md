@@ -2,7 +2,7 @@
 title: Docker 容器学习（四）：Docker镜像仓库管理
 published: 2026-02-13
 description: Docker Hub 使用、私有仓库 Registry 搭建（加密传输+登陆认证）、Harbor 企业级仓库部署与管理。
-image: ./images/new04.png
+image: ./images/bg005.png
 tags: [Docker, Harbor, Registry, 镜像仓库]
 category: 技术
 draft: false

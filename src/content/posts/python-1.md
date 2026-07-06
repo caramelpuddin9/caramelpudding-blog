@@ -2,7 +2,7 @@
 title: Python 学习笔记（一）：简介与安装
 published: 2026-01-16
 description: Python 的诞生历史、语言特点、应用场景，以及 Python 解释器的下载安装与环境配置。
-image: ./images/new09.png
+image: ./images/bg010.png
 tags: [Python, 编程, 教程]
 category: 技术
 draft: false

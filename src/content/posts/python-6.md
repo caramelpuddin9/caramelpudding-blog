@@ -2,7 +2,7 @@
 title: Python 学习笔记（六）：文件操作与异常处理
 published: 2026-01-21
 description: 文件读写、with 上下文管理、异常捕获 try/except/finally、正则表达式 re 模块、数据可视化基础。
-image: ./images/new14.png
+image: ./images/bg015.png
 tags: [Python, 文件, 异常, 正则]
 category: 技术
 draft: false

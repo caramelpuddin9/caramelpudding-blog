@@ -2,7 +2,7 @@
 title: Python 学习笔记（七）：面向对象与综合应用
 published: 2026-01-22
 description: 类与对象、继承与多态、封装与属性、SQL 数据库操作、多任务/三器一闭、Excel/Word/PDF 操作等。
-image: ./images/new15.png
+image: ./images/bg016.png
 tags: [Python, 面向对象, SQL, 综合]
 category: 技术
 draft: false

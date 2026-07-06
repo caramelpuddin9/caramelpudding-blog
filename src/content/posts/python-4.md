@@ -2,7 +2,7 @@
 title: Python 学习笔记（四）：函数与函数进阶
 published: 2026-01-19
 description: 函数定义与调用、参数类型、返回值、匿名函数 lambda、装饰器、闭包等高阶函数用法。
-image: ./images/new12.png
+image: ./images/bg013.png
 tags: [Python, 函数, 编程]
 category: 技术
 draft: false

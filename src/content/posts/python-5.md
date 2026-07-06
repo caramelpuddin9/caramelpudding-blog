@@ -2,7 +2,7 @@
 title: Python 学习笔记（五）：数据容器与内置模块
 published: 2026-01-20
 description: 列表/元组/字典/集合/字符串等数据容器操作，os/time/random/hashlib 等内置模块的使用。
-image: ./images/new13.png
+image: ./images/bg014.png
 tags: [Python, 数据结构, 模块]
 category: 技术
 draft: false

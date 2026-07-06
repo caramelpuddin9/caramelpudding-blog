@@ -2,7 +2,7 @@
 title: Docker 容器学习（一）：Docker简介及部署方法
 published: 2026-02-10
 description: Docker 简介、容器与虚拟化对比、Docker 的优势，以及如何部署第一个 Docker 容器环境。
-image: ./images/new01.png
+image: ./images/bg002.png
 tags: [Docker, Linux, 容器, 虚拟化]
 category: 技术
 draft: false
