@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "あの儚く散る花火の下で 馬鹿みたいに永遠を誓った",
 
 	// 站点 URL（部署后请修改为你的实际域名）
-	site_url: "https://caramelpudding-blog.pages.dev",
+	site_url: "https://caramelpudding-blog.xyz",
 
 	// 站点描述
 	description:
