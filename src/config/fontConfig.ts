@@ -34,7 +34,9 @@ export const fontsList: FontDefinition[] = [
 		options: {
 			variants: [
 				{
-					src: ["./public/assets/fonts/KaiXinJiuXiaoLinYuJiuZou/KaiXinJiuXiaoLinYuJiuZou-2.ttf"],
+					src: [
+						"./public/assets/fonts/KaiXinJiuXiaoLinYuJiuZou/KaiXinJiuXiaoLinYuJiuZou-2.ttf",
+					],
 				},
 			],
 		},

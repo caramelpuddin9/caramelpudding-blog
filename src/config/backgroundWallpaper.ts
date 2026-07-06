@@ -10,13 +10,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 
 	src: {
 		// 桌面背景 - 单张图片
-		desktop: [
-			"/wallpapers/3.jpg",
-		],
+		desktop: ["/wallpapers/3.jpg"],
 		// 移动背景
-		mobile: [
-			"/wallpapers/3.jpg",
-		],
+		mobile: ["/wallpapers/3.jpg"],
 	},
 
 	common: {
@@ -27,10 +23,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			switchable: true,
 			title: "caramelpudding blog🍮",
 			titleSize: "4rem",
-			subtitle: [
-				"焦糖布丁の个人空间",
-				"間違えても大丈夫、やり直せばいい。",
-			],
+			subtitle: ["焦糖布丁の个人空间", "間違えても大丈夫、やり直せばいい。"],
 			subtitleSize: "1.3rem",
 			typewriter: {
 				enable: true,
