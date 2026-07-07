@@ -75,9 +75,9 @@ const postUrlPrefix = url("/posts/");
         </div>
     </div>
 
-    <!-- 日历视图容器 -->
+    
     <div id="calendar-view-container">
-      <!-- 星期标题 -->
+      
       <div class="weekdays grid grid-cols-7 gap-1 mb-2">
         {weekDays.map(day => (
           <div class="text-center text-xs text-neutral-500 dark:text-neutral-400 font-medium">
@@ -86,13 +86,13 @@ const postUrlPrefix = url("/posts/");
         ))}
       </div>
 
-      <!-- 日历格子（由客户端动态生成） -->
+      
       <div class="calendar-grid grid grid-cols-7 gap-1 pb-1" id="calendar-grid">
-        <!-- 将由 JavaScript 填充 -->
+        
       </div>
     </div>
 
-    <!-- 年度文章热力图 -->
+    
     {showHeatmap && (
     <div id="heatmap-container" class="mb-2" style="display: none;">
       <div class="heatmap-months grid gap-0.5 mb-1" id="heatmap-months" style="grid-template-columns: repeat(12, 1fr);"></div>
@@ -101,21 +101,21 @@ const postUrlPrefix = url("/posts/");
     </div>
     )}
 
-    <!-- 月份选择视图 -->
+    
     <div id="month-view-container" class="grid grid-cols-3 gap-2" style="display: none;">
-      <!-- 将由 JavaScript 填充 -->
+      
     </div>
 
-    <!-- 年份选择视图 -->
+    
     <div id="year-view-container" class="grid grid-cols-3 gap-2" style="display: none;">
-      <!-- 将由 JavaScript 填充 -->
+      
     </div>
     
-    <!-- 文章列表 -->
+    
     <div id="calendar-posts" class="mt-3">
       <div class="border-t border-neutral-200 dark:border-neutral-700 mb-2" id="calendar-posts-divider" style="display: none;"></div>
       <div class="flex flex-col gap-1 max-h-48 overflow-y-auto custom-scrollbar" id="calendar-posts-list">
-        <!-- 将由 JavaScript 填充 -->
+        
       </div>
     </div>
   </div>

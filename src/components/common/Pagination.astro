@@ -54,9 +54,9 @@ const getPageUrl = (p: number) => {
 ---
 
 <div class:list={[className, "pagination-wrapper flex flex-col gap-4 items-center"]} style={style}>
-  <!-- 分页控件 -->
+  
   <div class="flex flex-row gap-3 justify-center" role="navigation" aria-label={i18n(I18nKey.postList)}>
-    <!-- 移动端简化版分页 -->
+    
     <div class="mobile-pagination flex items-center gap-3">
       <a
         href={page.url.prev || "#"}
@@ -99,7 +99,7 @@ const getPageUrl = (p: number) => {
       </a>
     </div>
 
-    <!-- 桌面端完整版分页 -->
+    
     <div class="desktop-pagination flex items-center gap-3">
       <a
         href={page.url.prev || "#"}

@@ -274,14 +274,14 @@ const hasMultipleImages =
 <Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle} postSlug={postSlug}>
 
 
-<!-- 为全屏壁纸模式添加body类 -->
+
 {shouldEnableTransparency && (
 	<script>
 		document.body.classList.add('wallpaper-transparent');
 	</script>
 )}
 
-<!-- Navbar -->
+
 <slot slot="head" name="head"></slot>
 <div
     id="top-row"
@@ -302,7 +302,7 @@ const hasMultipleImages =
     </div>
 </div>
 
-<!-- Wallpaper - 如果允许切换则始终渲染，否则只渲染当前模式 -->
+
 {(isWallpaperSwitchable || isBannerMode || isFullscreenMode || isOverlayMode) && (
 <div id="wallpaper-wrapper" class:list={[
 	`absolute z-10 w-full transition duration-700 overflow-hidden ${mobileNonHomeBannerClass}`,
@@ -317,9 +317,9 @@ const hasMultipleImages =
 				? ``
 				: `top: -${BANNER_HEIGHT_EXTEND}vh`
 }>
-    <!-- 背景图片显示 -->
+    
     {hasMultipleImages ? (
-    <!-- 轮播模式：渲染所有图片为 slide-item -->
+    
     <div class:list={["relative h-full w-full bg-black", `effect-${bannerCarouselEffect}`]} id="banner-images-container"
          style={`z-index: 5; --carousel-interval: ${bannerCarouselInterval}ms`}
          data-carousel-enabled={bannerCarouselEnabledDefault}
@@ -359,7 +359,7 @@ const hasMultipleImages =
         ))}
     </div>
     ) : (
-    <!-- 单图模式 -->
+    
     <div class="relative h-full w-full" id="banner-images-container">
         {backgroundImages.mobile.length > 0 && (
             <div class="banner-image-slot-mobile absolute inset-0 block lg:hidden">
@@ -395,7 +395,7 @@ const hasMultipleImages =
     </div>
     )}
 
-    <!-- 壁纸轮播脚本（基于 CSS transition） -->
+    
     {hasMultipleImages && (
     <script is:inline data-swup-ignore-script>
         (function initBannerCarousel() {
@@ -610,7 +610,7 @@ const hasMultipleImages =
         {showBannerDim && <div class="banner-dim-overlay absolute inset-0" style={`background: rgba(0, 0, 0, ${dimOpacity})`}></div>}
     </div>
 
-    <div id="banner-overlay-container" class="absolute inset-0 z-20 pointer-events-none transition-swup-fade">    <!-- Home page text overlay - 始终渲染以便切换模式时控制显示 -->
+    <div id="banner-overlay-container" class="absolute inset-0 z-20 pointer-events-none transition-swup-fade">    
     {homeTextEnable && (
         <div class={`banner-home-text-overlay absolute inset-0 z-20 flex items-center justify-center ${!showHomeText ? 'hidden' : ''}`}>
             <div class="w-4/5 lg:w-3/4 text-center mb-0">
@@ -668,7 +668,7 @@ const hasMultipleImages =
         setRandomSubtitle();
     </script>
 
-    <!-- Non-home non-post page title overlay (desktop only) -->
+    
     {showBannerPageTitle && (
         <div class="banner-page-title-overlay absolute inset-0 z-20 hidden lg:flex items-center justify-center pointer-events-none">
             <div class="w-4/5 lg:w-3/4 text-center mb-0">
@@ -680,7 +680,7 @@ const hasMultipleImages =
         </div>
     )}
 
-    <!-- Non-home post banner meta overlay (desktop only) -->
+    
     {showBannerPostMeta && bannerPostMeta && (
         <div class="banner-post-meta-overlay absolute inset-0 z-20 hidden lg:flex items-center justify-center pointer-events-none">
             <div class="w-4/5 lg:w-3/4 text-center mb-0">
@@ -722,11 +722,11 @@ const hasMultipleImages =
         </div>
     )}
 
-    <!-- Fullscreen 模式下显示向下滚动指示器 -->
+    
     {(isFullscreenMode || isWallpaperSwitchable) && <ScrollDownIndicator />}
     </div>
 
-    <!-- Water waves effect - 如果允许切换或任一设备启用则渲染 -->
+    
     {shouldRenderWaves ? (
     <div class={`waves absolute -bottom-px h-[10vh] max-h-37.5 min-h-12.5 w-full md:h-[15vh]
         ${!wavesEnabledOnMobile ? 'hidden' : ''} ${!wavesEnabledOnDesktop ? 'md:hidden' : ''} ${wavesEnabledOnDesktop ? 'md:block' : ''}`}
@@ -777,7 +777,7 @@ const hasMultipleImages =
     </div>
     ) : null}
 
-    <!-- Gradient transition - 当水波纹关闭时显示，提供壁纸底部到背景色的平滑过渡 -->
+    
     {shouldRenderGradient ? (
     <div class={`wallpaper-gradient absolute bottom-0 left-0 w-full pointer-events-none
         ${!gradientEnabledOnMobile ? 'hidden' : ''} ${!gradientEnabledOnDesktop ? 'md:hidden' : ''} ${gradientEnabledOnDesktop ? 'md:block' : ''}`}
@@ -796,9 +796,9 @@ const hasMultipleImages =
 </>
 )}
 
-<!-- Main content -->
+
 <div class={`absolute w-full z-30 pointer-events-none ${mobileNonHomeBannerClass ? 'mobile-main-no-banner' : ''} ${!(isBannerMode && isBackgroundEnabled) ? 'no-banner-layout' : ''}`} style={isFullscreenMode ? 'top: 0;' : `top: ${finalMainPanelTop}`}>
-    <!-- The pointer-events-none here prevent blocking the click event of the TOC -->
+    
     <div class="relative w-full xl:w-[92vw] max-w-(--page-width) mx-auto pointer-events-auto">
         <div id="main-grid"
           class={`transition duration-700 w-full left-0 right-0 grid ${gridCols} grid-rows-[auto_1fr_auto] lg:grid-rows-[auto] mx-auto gap-4 px-2 md:px-4 ${!sidebarConfig.mobileShowSidebar ? 'mobile-no-sidebar' : ''}`}

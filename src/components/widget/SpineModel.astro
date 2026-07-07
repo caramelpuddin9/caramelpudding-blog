@@ -4,7 +4,7 @@ import { spineModelConfig } from "@/config/pioConfig";
 import { url } from "@/utils/url-utils";
 ---
 
-<!-- Spine Web Player CSS 将在 script 中动态加载 -->{
+{
   spineModelConfig.enable && (
     <div
       id="spine-model-container"
@@ -24,7 +24,7 @@ import { url } from "@/utils/url-utils";
   )
 }
 
-<!-- 引入消息框组件 -->
+
 <MessageBox />
 
 <script is:inline define:vars={{ spineModelConfig, modelPath: url(spineModelConfig.model.path), atlasPath: url(spineModelConfig.model.path.replace(".json", ".atlas")), cssPath: url("/pio/static/spine-player.min.css"), jsPath: url("/pio/static/spine-player.min.js") }}>

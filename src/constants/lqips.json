@@ -18,5 +18,16 @@
   "src:assets/images/MobileWallpaper/m1.avif": "cccce0cbc0d59294c0",
   "public:assets/images/sponsor/wechat.png": "d5d5d5dad9d7dbd8cf",
   "public:assets/images/sponsor/alipay.png": "8ebbde91bedf93c0e0",
-  "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93"
+  "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93",
+  "public:wallpapers/bg049.png": "9a9d98a0908bc0a2a0",
+  "public:wallpapers/bg001.png": "4f6c924c69951a4770",
+  "public:wallpapers/6.jpg": "647b9a667f9e7a87a2",
+  "public:wallpapers/5.jpg": "c8c8bfcac5c4ae988f",
+  "public:wallpapers/4.png": "b5c1d6a4bedaaaa7bb",
+  "public:wallpapers/3.jpg": "5b4358e2c9b9c69c88",
+  "public:wallpapers/2.jpg": "e9d69ee5c394d8be8e",
+  "public:wallpapers/1.jpg": "75a1f34664971c2339",
+  "public:assets/images/k8s-node-join-flow.png": "070808040404070707",
+  "public:assets/images/k8s-image-pull-flow.png": "252426202021222223",
+  "src:assets/images/avatar.jpg": "4045523b47595f6b85"
 }

@@ -21,7 +21,7 @@ const isSidebarTocEnabled = sidebarTocComponent?.enable ?? false;
 const sidebarPosition = sidebarLayoutConfig.position;
 ---
 
-<!-- 悬浮TOC按钮 -->
+
 <div id="floating-toc-wrapper" class="floating-toc-wrapper" data-is-sidebar-toc-enabled={String(isSidebarTocEnabled)} data-sidebar-position={sidebarPosition} data-show-both-sidebars-on-post={String(sidebarLayoutConfig.showBothSidebarsOnPostPage ?? false)}>
   <FloatingButton
     id="floating-toc-btn"
@@ -31,7 +31,7 @@ const sidebarPosition = sidebarLayoutConfig.position;
     class="hide"
   />
   
-  <!-- 悬浮TOC面板 - 移到 Wrapper 内部以便相对定位 -->
+  
   <div
     id="floating-toc-panel"
     class="floating-toc-panel hide w-80 max-h-96 overflow-hidden rounded-2xl shadow-2xl backdrop-blur-lg border border-white/20 dark:border-white/10 md:w-80 w-[calc(100vw-2rem)] md:max-h-96 max-h-[calc(100vh-8rem)]"
@@ -63,7 +63,7 @@ const sidebarPosition = sidebarLayoutConfig.position;
         id="floating-toc-content"
         style="width: 100%; max-width: 100%;"
         >
-        <!-- TOC内容将由JavaScript动态生成 -->
+        
         </div>
     </div>
   </div>

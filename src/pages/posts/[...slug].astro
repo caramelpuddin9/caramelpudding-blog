@@ -142,7 +142,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
   headings={headings}
   bannerPostMeta={bannerPostMeta}
 >
-  <!-- KaTeX 按需加载 - 仅在文章页面 -->
+  
   <KatexManager slot="head" />
   
   <script
@@ -161,7 +161,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
         {},
       ]}
     >
-      <!-- word count and reading time -->
+      
       <div
         class="flex flex-row text-black/30 dark:text-white/30 gap-5 mb-3 transition onload-animation"
       >
@@ -208,7 +208,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
         )}
       </div>
 
-      <!-- title -->
+      
       <div class="relative onload-animation">
         <div
           data-pagefind-body
@@ -224,7 +224,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
         </div>
       </div>
 
-      <!-- metadata -->
+      
       <div class="onload-animation">
         <PostMetadata
           className="mb-5"
@@ -241,7 +241,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
         }
       </div>
 
-      <!-- always show cover as long as it has one -->
+      
 
       {
         processedImage && coverImageConfig.enableInPost && (
@@ -438,7 +438,7 @@ const relatedPosts = await getRelatedPosts(entry, 5);
     </div>
   </div>
 
-  <!-- 上次编辑时间 -->
+  
   {
     siteConfig.post.showLastModified && (() => {
       const lastModified = dayjs(entry.data.updated || entry.data.published);
@@ -542,6 +542,6 @@ const relatedPosts = await getRelatedPosts(entry, 5);
 
   <RecommendedPost relatedPosts={relatedPosts} currentPostId={entry.id} />
 
-  <!-- 评论 -->
+  
   {entry.data.comment && !entry.data.password && <Comment post={entry} />}
 </MainGridLayout>

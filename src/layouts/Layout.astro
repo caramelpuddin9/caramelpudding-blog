@@ -167,7 +167,7 @@ const siteLang = lang.replace("_", "-");
       ))
     }
 
-    <!-- 为特定域名的图片添加 referrerpolicy 以解决 403 问题 -->
+    
     {siteConfig.imageOptimization?.noReferrerDomains &&
      siteConfig.imageOptimization.noReferrerDomains.length > 0 && (
       <script
@@ -231,7 +231,7 @@ const siteLang = lang.replace("_", "-");
       </script>
     )}
 
-    <!-- Set the theme before the page is rendered to avoid a flash -->
+    
     <script
       is:inline
       define:vars={{
@@ -537,7 +537,7 @@ const siteLang = lang.replace("_", "-");
         "page-width": `${siteConfig.pageWidth ?? PAGE_WIDTH}rem`,
       }}
     ></style>
-    <!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why -->
+    
 
     <slot name="head" />
 
@@ -548,7 +548,7 @@ const siteLang = lang.replace("_", "-");
       href={`${Astro.site}rss.xml`}
     />
 
-    <!-- Font Setup (Astro Font API) -->
+    
     <FontSetup />
   </head>
   <body
@@ -567,7 +567,7 @@ const siteLang = lang.replace("_", "-");
 
     <div id="progress-bar"></div>
 
-    <!-- 页面顶部渐变高光效果 - 只在full和semifull模式下显示 -->
+    
     {shouldShowTopHighlight && <div class="top-gradient-highlight" />}
     <ConfigCarrier />
     <MusicManager />
@@ -575,10 +575,10 @@ const siteLang = lang.replace("_", "-");
 
 
 
-    <!-- Sakura Effect -->
+    
     <SakuraEffect />
 
-    <!-- Fancybox Manager -->
+    
     <FancyboxManager />
   </body>
 </html>

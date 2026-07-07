@@ -144,22 +144,22 @@ const remoteReferrerPolicy =
 	data-loading={showLoading ? "true" : "false"}
 	data-api-urls={apiUrls.length > 0 ? JSON.stringify(apiUrls) : undefined}
 >
-	<!-- LQIP 渐变占位 -->
+	
 	<div class="lqip-placeholder absolute inset-0 pointer-events-none" style={lqipProps.style} aria-hidden="true"></div>
 
-	<!-- 加载动画 -->
+	
 	{showLoading && (
 		<div class="loading-spinner absolute inset-0 flex items-center justify-center z-10" style="background-color: var(--card-bg);">
 			<div class="spinner"></div>
 		</div>
 	)}
 
-	<!-- 错误提示（覆盖在回退图片上） -->
+	
 	<div class="error-message absolute inset-0 flex items-center justify-center z-20 hidden pointer-events-none">
 		<span class="text-white text-sm px-3 py-1 rounded bg-black/50">Image API Error</span>
 	</div>
 
-	<!-- 回退图片（错误时显示） -->
+	
 	{fallbackImg && (
 		<div class="fallback-image absolute inset-0 hidden">
 			<Picture
@@ -190,7 +190,7 @@ const remoteReferrerPolicy =
 		</div>
 	)}
 
-	<!-- 本地图片 -->
+	
 	{isLocal && img && (
 		<Picture
 			src={img}
@@ -207,7 +207,7 @@ const remoteReferrerPolicy =
 		/>
 	)}
 
-	<!-- 远程图片 -->
+	
 	{!isLocal && (
 		<img
 			src={isPublic ? url(src) : src}
