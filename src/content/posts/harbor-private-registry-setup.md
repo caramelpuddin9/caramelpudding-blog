@@ -1,6 +1,6 @@
 ---
 title: "搭建 Harbor 私有仓库"
-published: 2026-07-12
+published: 2026-06-20
 description: "一口气带你搭建 Harbor 私有仓库"
 image: ./images/bg021.png
 tags: [Harbor, Docker, 私有仓库, Registry, DevOps]

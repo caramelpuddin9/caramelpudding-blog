@@ -1,6 +1,6 @@
 ---
 title: "用 kubeadm 部署 3 节点 K8s 集群：Flannel 网络 + Harbor 私仓内网部署"
-published: 2026-07-12
+published: 2026-06-21
 description: "一口气带你用 kubeadm 部署 3 节点 K8s 集群，配置 Flannel 网络插件并对接 Harbor 私仓完成内网部署"
 image: ./images/bg020.png
 tags: [Kubernetes, kubeadm, Harbor, Flannel, Docker, 集群部署]
